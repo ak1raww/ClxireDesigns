@@ -8,6 +8,17 @@ export default defineConfig(({ mode }) => {
   return {
     base: "/",
     plugins: [react(), tailwindcss()],
+    css: {
+      postcss: {
+        plugins: [
+          require('autoprefixer')({
+            // This explicitly tells Autoprefixer not to remove the -webkit- prefix for backdrop-filter
+            overrideBrowserslist: ['Safari >= 14'],
+            grid: 'autoplace', // often needed for full compatibility
+          }),
+        ],
+      },
+    },
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },

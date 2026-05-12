@@ -10,6 +10,12 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "Safari >= 14"
+  ],
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
