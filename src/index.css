@@ -290,7 +290,7 @@
   .liquid-glass-dark {
     background: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
     position: relative;
@@ -318,7 +318,7 @@
   .glass-card {
     background: rgba(12, 12, 12, 0.4);
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
   }
@@ -328,7 +328,7 @@
     background: rgba(255, 255, 255, 0.01);
     background-blend-mode: luminosity;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     border: none;
     box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
     position: relative;
@@ -360,7 +360,7 @@
     background: rgba(255, 255, 255, 0.01);
     background-blend-mode: luminosity;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     border: none;
     box-shadow:
       inset 0 1px 1px rgba(255, 255, 255, 0.1),
@@ -391,7 +391,7 @@
   .liquid-glass-strong {
     background: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.12);
     position: relative;
     overflow: hidden;
@@ -419,7 +419,7 @@
   .text-glass {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.05) 100%);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-background-clip: text;
     background-clip: text;
@@ -451,7 +451,7 @@
     width: 0px;
     background: transparent;
   }
-  
+
   * {
     scrollbar-width: none;
     -ms-overflow-style: none;
