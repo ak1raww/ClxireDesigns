@@ -22,17 +22,17 @@ export const siteConfig = {
       'https://imgur.com/5eQeiFh.png',
     ],
     socials: [
-      { platform: 'Instagram', handle: '@clxiredesigns', url: 'https://instagram.com/clxiredesigns', iconName: 'Instagram' },
-      { platform: 'Pinterest', handle: 'clxiredesigns', url: 'https://pinterest.com/clxiredesigns', iconName: 'Pin' },
-      { platform: 'Twitch', handle: 'clxire', url: 'https://twitch.tv/clxire', iconName: 'Twitch' },
-      { platform: 'Behance', handle: 'Chiara', url: 'https://behance.net/clxire', iconName: 'Behance' },
+      { platform: 'Instagram', handle: '@clxire_designs', url: 'https://www.instagram.com/clxire_designs', iconName: 'Instagram' },
+      { platform: 'Pinterest', handle: '@AestetichGirl05', url: 'https://it.pinterest.com/AestetichGirl05', iconName: 'Pin' },
+      { platform: 'Twitch', handle: '@itsclxireee_', url: 'https://www.twitch.tv/itsclaireee_', iconName: 'Twitch' },
+      { platform: 'Behance', handle: '@clxire', url: 'https://behance.net/clxire', iconName: 'Behance' },
       { platform: 'Discord', handle: 'clxire', url: '/socials', iconName: 'MessageSquare' },
     ],
   },
   it: {
     nav: {
       services: 'Servizi',
-      about: 'Chiara',
+      about: 'Chi sono',
       projects: 'Progetti',
       socials: 'Social',
       shop: 'Scopri Etsy',
@@ -55,8 +55,8 @@ export const siteConfig = {
       ],
     },
     about: {
-      heading: 'Chiara',
-      text: 'Con più di cinque anni di esperienza nel design, mi concentro su banner, branding ed estetiche dark per gamer e amanti degli anime. Adoro lavorare con streamer e creator che vogliono distinguersi. Creiamo qualcosa di incredibile insieme!',
+      heading: 'Chi sono',
+      text: 'Con più di cinque anni di esperienza nel design, mi concentro su banner, branding ed estetiche dark per gamer e amanti degli anime. Creiamo qualcosa di incredibile insieme!',
       cta: 'Lavoriamo Insieme ✦',
     },
     projects: {
@@ -66,17 +66,17 @@ export const siteConfig = {
         {
           name: 'Stream Pack Alpha',
           category: 'Client',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Prendine uno!', url: 'https://clxiredesigns.etsy.com' }]
         },
         {
           name: 'Cyberpunk Poster',
           category: 'Personal',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Prendine uno!', url: 'https://clxiredesigns.etsy.com' }]
         },
         {
           name: 'Anime Branding',
           category: 'Client',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Prendine uno!', url: 'https://clxiredesigns.etsy.com' }]
         }
       ],
     },
@@ -162,17 +162,17 @@ export const siteConfig = {
         {
           name: 'Stream Pack Alpha',
           category: 'Client',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Get yours now!', url: 'https://clxiredesigns.etsy.com' }]
         },
         {
           name: 'Cyberpunk Poster',
           category: 'Personal',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Get yours now!', url: 'https://clxiredesigns.etsy.com' }]
         },
         {
           name: 'Anime Branding',
           category: 'Client',
-          links: [{ label: 'Etsy Store', url: 'https://clxiredesigns.etsy.com' }]
+          links: [{ label: 'Get yours now!', url: 'https://clxiredesigns.etsy.com' }]
         }
       ],
     },
